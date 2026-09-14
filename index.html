@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>철기와 토기의 나라, 가야 연맹</title>
+    <style>
+        /* 기본 스타일 리셋 및 폰트 설정 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f8f6;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            background-color: #4a3b32;
+            color: #f1e7dd;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 5px solid #8c6d58;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            color: #d1c2b5;
+        }
+
+        /* 네비게이션 메인 메뉴 */
+        nav {
+            background-color: #614e41;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        nav li a {
+            display: block;
+            color: #fff;
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        nav li a:hover {
+            background-color: #8c6d58;
+        }
+
+        /* 메인 컨테이너 */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        /* 섹션 카드 스타일 */
+        .card {
+            background: #ffffff;
+            border-radius: 8px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 6px solid #8c6d58;
+        }
+        .card h2 {
+            color: #4a3b32;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+        .card .location {
+            font-weight: bold;
+            color: #7b5e47;
+            margin-bottom: 1rem;
+            display: inline-block;
+            background: #f1e7dd;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+        }
+        .card p {
+            margin-bottom: 1rem;
+        }
+        .card ul {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .card li {
+            margin-bottom: 0.3rem;
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #4a3b32;
+            color: #d1c2b5;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 영역 -->
+    <header>
+        <h1>가야(伽倻) 연맹 탐구</h1>
+        <p>풍부한 철기와 화려한 문화를 꽃피웠던 삼국시대의 연맹왕국입니다.</p>
+    </header>
+
+    <!-- 네비게이션 영역 -->
+    <nav>
+        <ul>
+            <li><a href="#geumgwan">금관가야</a></li>
+            <li><a href="#daegaya">대가야</a></li>
+            <li><a href="#ara">아라가야</a></li>
+            <li><a href="#so">소가야</a></li>
+            <li><a href="#goryeong">고령가야</a></li>
+            <li><a href="#seongsan">성산가야</a></li>
+        </ul>
+    </nav>
+
+    <!-- 메인 콘텐츠 영역 -->
+    <div class="container">
+
+        <!-- 금관가야 -->
+        <section id="geumgwan" class="card">
+            <h2>금관가야 (金官伽倻)</h2>
+            <span class="location">중심지: 경상남도 김해시 (전기 가야연맹의 맹주)</span>
+            <p>김수로왕이 창건했다고 전해지는 국가로, 전기 가야 연맹을 이끌었던 대표적인 소국입니다. 낙동강 하구에 위치하여 해상 무역의 중심지로 발전했습니다.</p>
+            <ul>
+                <li><strong>특징:</strong> 덩이쇠(철정)를 화폐처럼 사용하였으며, 일본 및 낙랑 등과 활발하게 교역했습니다.</li>
+                <li><strong>쇠퇴:</strong> 5세기 초 고구려 광개토대왕의 남정(신라 구원)으로 인해 큰 타격을 입고 연맹의 주도권을 잃었습니다.</li>
+                <li><strong>멸망:</strong> 532년에 신라 법흥왕에게 항복했습니다 (신라 김유신 장군의 조상이 됩니다).</li>
+                <li><strong>대표 유적:</strong> 김해 대성동 고분군, 수로왕릉</li>
+            </ul>
+        </section>
+
+        <!-- 대가야 -->
+        <section id="daegaya" class="card">
+            <h2>대가야 (大伽倻)</h2>
+            <span class="location">중심지: 경상북도 고령군 (후기 가야연맹의 맹주)</span>
+            <p>뇌질주일(이진아시왕)이 창건했다는 설화가 전해지며, 금관가야가 약화된 이후 후기 가야 연맹의 맹주로 부상한 강력한 소국입니다.</p>
+            <ul>
+                <li><strong>특징:</strong> 내륙의 풍부한 철광석 자원과 우수한 농업 기반을 바탕으로 발전했습니다. 고구려, 백제, 신라와 경쟁하며 자립적인 문화를 이루었습니다.</li>
+                <li><strong>문화:</strong> 가야금의 제작자인 우륵이 대가야 출신입니다.</li>
+                <li><strong>멸망:</strong> 562년 신라 진흥왕 때 이사부와 사다함의 공격으로 멸망했습니다 (가야 연맹의 최종 종말입니다).</li>
+                <li><strong>대표 유적:</strong> 고령 지산동 고분군</li>
+            </ul>
+        </section>
+
+        <!-- 아라가야 -->
+        <section id="ara" class="card">
+            <h2>아라가야 (阿羅伽倻)</h2>
+            <span class="location">중심지: 경상남도 함안군</span>
+            <p>안라국(安羅國)이라고도 불렸으며, 남강과 낙동강이 만나는 요충지에 위치하여 독자적이고 강력한 군사력을 보유했던 국가입니다.</p>
+            <ul>
+                <li><strong>특징:</strong> 가야 연맹 후기까지 대가야와 함께 연맹의 주축 역할을 담당했으며, 백제 및 신라와의 외교 사이에서 균형을 맞추려 노력했습니다.</li>
+                <li><strong>문화:</strong> 특유의 '불꽃무늬 토기(불꽃모양 뚫은 무늬 토기)'와 마갑(말 갑옷)이 유명합니다.</li>
+                <li><strong>대표 유적:</strong> 함안 말이산 고분군</li>
+            </ul>
+        </section>
+
+        <!-- 소가야 -->
+        <section id="so" class="card">
+            <h2>소가야 (小伽倻)</h2>
+            <span class="location">중심지: 경상남도 고성군</span>
+            <p>남해안 해상 교통의 중심지였던 고성 지역을 기반으로 성장한 국가로, 해양 자원 활용과 해상 무역에 강점을 가졌습니다.</p>
+            <ul>
+                <li><strong>특징:</strong> 일본 열도와의 직접적인 교류가 활발했으며, 삼천포 및 남해안 지역을 연결하는 거점 역할을 수행했습니다.</li>
+                <li><strong>문화:</strong> 소가야 양식의 수평구멍 굽다리접시 등 독자적인 토기 양식을 보유했습니다.</li>
+                <li><strong>대표 유적:</strong> 고성 송학동 고분군</li>
+            </ul>
+        </section>
+
+        <!-- 고령가야 -->
+        <section id="goryeong" class="card">
+            <h2>고령가야 (古寧伽倻)</h2>
+            <span class="location">중심지: 경상북도 상주시 함창읍</span>
+            <p>태조 마로왕이 창건했다고 전해지는 소국으로, 낙동강 상류 지역에 위치하여 신라 및 백제와 접경을 이루었던 국경 지대였습니다.</p>
+            <ul>
+                <li><strong>특징:</strong> 낙동강 수로의 최상류를 점유하여 지리적으로 중요한 위치에 있었으나, 이른 시기에 신라의 영향력 아래에 들어갔습니다.</li>
+                <li><strong>대표 유적:</strong> 상주 함창읍 전 고령가야왕릉</li>
+            </ul>
+        </section>
+
+        <!-- 성산가야 -->
+        <section id="seongsan" class="card">
+            <h2>성산가야 (星山伽倻)</h2>
+            <span class="location">중심지: 경상북도 성주군</span>
+            <p>벽진국(碧珍國)이라고도 불렸으며, 낙동강 중류 우안에 위치하여 넓은 평야 지대를 바탕으로 발전했던 소국입니다.</p>
+            <ul>
+                <li><strong>특징:</strong> 신라와 지리적으로 가까워 5세기 이후 신라 문화의 영향을 매우 강하게 받았습니다.</li>
+                <li><strong>대표 유적:</strong> 성주 성산동 고분군</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- 푸터 영역 -->
+    <footer>
+        <p>&copy; 가야 연맹 역사 탐구 웹사이트 | 삼국시대의 잊혀진 제국, 가야</p>
+    </footer>
+
+</body>
+</html>
